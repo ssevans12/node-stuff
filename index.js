@@ -1,0 +1,9 @@
+import chalk from "chalk"
+import { add } from "./math.js"
+import { subtract } from "./math.js"
+import { get30DaysAgo } from "./date.js";
+
+
+console.log(add(2,2));
+console.log(subtract(8,3));
+console.log(chalk.red(get30DaysAgo()));
