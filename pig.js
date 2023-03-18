@@ -13,7 +13,9 @@ function translate(phrase){
             word = word.substring(firstVowelIndex);
             phrase += " " + word + firstConsonants + "ay";
         }
+        //substring is used for returning characters between the parameters 
     });
+    // trim gets rid of spaces at the beginning and end
     return phrase.trim();
 }
 
