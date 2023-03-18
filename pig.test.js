@@ -15,4 +15,10 @@ describe("pig", () => {
     test("mixed phrase", () => {
         expect(pig.translate("sara evans is great")).toEqual("arasay evansway isway eatgray");
     });
+    test("phrase starts with consonant and cap letters", () => {
+        expect(pig.translate("Hungry Hippo")).toEqual("ungryhay ippohay");
+    });
+    test("word starts with several consonants", () => {
+        expect(pig.translate("street")).toEqual("eetstray");
+    });
 });
