@@ -28,3 +28,7 @@ function findFirstVowelIndex(word, vowels){
 
     return lowestIndex;
 }
+
+module.exports = {
+    translate, findFirstVowelIndex
+}
